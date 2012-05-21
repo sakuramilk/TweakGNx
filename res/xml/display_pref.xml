@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2011-2012 sakuramilk <c.sakuramilk@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/display_title">
+    
+    <PreferenceCategory
+        android:key="disp_lcd_category"
+        android:title="@string/lcd_category">
+        <ListPreference
+            android:key="disp_lcd_type"
+            android:title="@string/lcd_type"
+            android:entries="@array/ldctype_entries"
+            android:entryValues="@array/lcdtype_values"
+            android:enabled="false" />
+        <net.sakuramilk.TweakGNx.Parts.SeekBarPreference
+            android:key="disp_lcd_gamma"
+            android:title="@string/gamma_adjust"
+            android:dialogTitle="@string/gamma_adjust"
+            android:enabled="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="disp_mdnie_category"
+        android:title="@string/mdnie_category">
+        <CheckBoxPreference
+            android:key="disp_mdnie_enabled"
+            android:title="@string/mdnie_function"
+            android:summaryOn="@string/mdnie_function_on"
+            android:summaryOff="@string/mdnie_function_off"
+            android:enabled="false" />
+        <CheckBoxPreference   
+            android:key="disp_mdnie_mode"
+            android:title="@string/mdnie_mode"
+            android:summaryOn="@string/mdnie_mode_on"
+            android:summaryOff="@string/mdnie_mode_off"
+            android:enabled="false" />
+        <net.sakuramilk.TweakGNx.Parts.SeekBarPreference
+            android:key="disp_mdnie_color_cb"
+            android:title="@string/mdnie_color_cb"
+            android:dialogTitle="@string/mdnie_color_cb"
+            android:enabled="false" />
+        <net.sakuramilk.TweakGNx.Parts.SeekBarPreference
+            android:key="disp_mdnie_color_cr"
+            android:title="@string/mdnie_color_cr"
+            android:dialogTitle="@string/mdnie_color_cr"
+            android:enabled="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
