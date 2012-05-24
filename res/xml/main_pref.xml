@@ -42,7 +42,7 @@
             android:targetClass="net.sakuramilk.TweakGNx.RomManager.RomManagerPreferenceActivity" />
     </PreferenceScreen>
 
-    <!-- MultiBoot -->
+    <!-- MultiBoot --><!--
     <PreferenceScreen
         android:key="multi_boot_pref"
         android:title="@string/multi_boot_title"
@@ -53,7 +53,7 @@
             android:action="android.intent.action.MAIN"
             android:targetPackage="net.sakuramilk.TweakGNx"
             android:targetClass="net.sakuramilk.TweakGNx.MultiBoot.MultiBootPreferenceActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
     <!-- CpuControl -->
     <PreferenceScreen
@@ -85,7 +85,7 @@
             android:targetClass="net.sakuramilk.TweakGNx.SoundAndVib.SoundAndVibPreferenceActivity" />
     </PreferenceScreen>
 
-    <!-- Display -->
+    <!-- Display --><!--
     <PreferenceScreen
         android:title="@string/display_title"
         android:icon="@drawable/ic_settings_display">
@@ -93,7 +93,7 @@
             android:action="android.intent.action.MAIN"
             android:targetPackage="net.sakuramilk.TweakGNx"
             android:targetClass="net.sakuramilk.TweakGNx.Display.DisplayPreferenceActivity" />
-    </PreferenceScreen>
+    </PreferenceScreen>-->
 
     <!-- Dock -->
     <PreferenceScreen

@@ -168,26 +168,16 @@
         <item>mass_storage,adb</item>
     </string-array>
 
-    <string-array name="asv_group_entries">
-        <item>SS</item>
-        <item>A1</item>
-        <item>A2</item>
-        <item>B1</item>
-        <item>B2</item>
-        <item>C1</item>
-        <item>C2</item>
-        <item>D</item>
+    <string-array name="gpu_freq_entries">
+        <item>307MHz</item>
+        <item>384MHz</item>
+        <item>512MHz</item>
     </string-array>
 
-    <string-array name="asv_group_values" translatable="false">
+    <string-array name="gpu_freq_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
     </string-array>
 
     <string-array name="dualboot_rom_select_entries">

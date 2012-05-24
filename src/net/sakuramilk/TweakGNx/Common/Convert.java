@@ -28,4 +28,17 @@ public class Convert {
     public static String toString(boolean value) {
         return value ? "1" : "0";
     }
+
+    public static int toInteger(String value) {
+    	return toInteger(value, 0);
+    }
+
+	public static int toInteger(String value, int defaultValue) {
+		try {
+			return Integer.parseInt(value);
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+		}
+		return defaultValue;
+	}
 }

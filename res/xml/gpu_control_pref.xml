@@ -18,7 +18,18 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/gpu_control_title"
-    android:key="root_pref">
+    android:title="@string/gpu_control_title">
+    
+    <ListPreference
+        android:key="gpu_freq_list"
+        android:title="@string/gpu_freq_list_title"
+        android:enabled="false"
+        android:entries="@array/gpu_freq_entries"
+        android:entryValues="@array/gpu_freq_values" />
+
+    <CheckBoxPreference
+        android:key="gpu_freq_set_on_boot"
+        android:title="@string/set_on_boot"
+        android:enabled="false" />
 
 </PreferenceScreen>

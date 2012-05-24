@@ -66,9 +66,9 @@ public class BootCompletedService extends Service {
             dockSetting.setOnBoot();
     
             // Display
-            DisplaySetting displaySetting = new DisplaySetting(mContext, rootProcess);
-            Log.d(TAG, "start: Display Setting");
-            displaySetting.setOnBoot();
+            //DisplaySetting displaySetting = new DisplaySetting(mContext, rootProcess);
+            //Log.d(TAG, "start: Display Setting");
+            //displaySetting.setOnBoot();
             
             rootProcess.term();
             rootProcess = null;

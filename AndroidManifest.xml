@@ -109,6 +109,9 @@
         <activity android:name=".Display.DisplayPreferenceActivity" />
 
         <!-- Dock -->
+        <activity android:name=".Dock.DockPreferenceActivity" />
+
+        <!-- About -->
         <activity android:name=".About.AboutPreferenceActivity" />
 
     </application>

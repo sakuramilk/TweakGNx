@@ -161,9 +161,7 @@
 
     <!-- GPU Control -->
     <string name="gpu_control_title">GPU control</string>
-    <string name="gpu_high_state_category">High performance state</string>
-    <string name="gpu_low_state_category">Low performance state</string>
-    <string name="gpu_freq_category">Governor</string>
+    <string name="gpu_freq_list_title">GPU Frequency</string>
 
     <!-- Display -->
     <string name="display_title">Display setting</string>
