@@ -25,13 +25,13 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 
 public class PhoneStateReceiver extends BroadcastReceiver {
-    private static final String TAG = "TweakGN::PhoneStateReceiver";
+    private static final String TAG = "TweakGNx::PhoneStateReceiver";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         final String extraState = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
         Log.d(TAG, "onReceive state=" + extraState);
-        
+
         final SoundAndVibSetting soundAndVibSetting = new SoundAndVibSetting(context);
         final String vibNormalLevel = soundAndVibSetting.loadVibNormalLevel();
         final String vibIncomingLevel = soundAndVibSetting.loadVibIncomingLevel();
