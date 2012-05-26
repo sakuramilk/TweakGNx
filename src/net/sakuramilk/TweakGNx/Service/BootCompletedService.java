@@ -2,7 +2,6 @@ package net.sakuramilk.TweakGNx.Service;
 
 import net.sakuramilk.TweakGNx.Common.RootProcess;
 import net.sakuramilk.TweakGNx.CpuControl.CpuControlSetting;
-import net.sakuramilk.TweakGNx.Display.DisplaySetting;
 import net.sakuramilk.TweakGNx.Dock.DockSetting;
 import net.sakuramilk.TweakGNx.General.GeneralSetting;
 import net.sakuramilk.TweakGNx.General.LowMemKillerSetting;

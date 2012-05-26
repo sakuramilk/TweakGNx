@@ -159,9 +159,7 @@
 
     <!-- GPU Control -->
     <string name="gpu_control_title">GPUコントロール</string>
-    <string name="gpu_high_state_category">高パフォーマンス</string>
-    <string name="gpu_low_state_category">低パフォーマンス</string>
-    <string name="gpu_freq_category">Governor</string>
+    <string name="gpu_freq_list_title">周波数</string>
 
     <!-- Display -->
     <string name="display_title">画面設定</string>
